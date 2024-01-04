@@ -4,10 +4,12 @@ metadata:
 type: application
 framework:
   name: SAPUI5
-  version: "1.120.3"
+  version: "1.120.2"
   libraries:
     - name: sap.m
+    - name: sap.f
     - name: sap.ui.core
+    - name: sap.uxap
     - name: themelib_sap_horizon
 builder:
   customTasks:
